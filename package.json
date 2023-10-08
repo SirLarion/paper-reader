@@ -1,0 +1,27 @@
+{
+  "name": "paper-reader",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/eden": "^0.7.4",
+    "@elysiajs/html": "^0.7.0",
+    "@elysiajs/static": "^0.7.1",
+    "@vitejs/plugin-react": "^4.1.0",
+    "elysia": "^0.7.15",
+    "pdf2html": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-drag-drop-files": "^2.3.10",
+    "spellchecker": "^3.7.1",
+    "vite": "^4.4.11"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.25",
+    "@types/react-dom": "^18.2.10",
+    "bun-types": "latest"
+  },
+  "module": "server/src/index.ts"
+}
